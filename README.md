@@ -1,8 +1,8 @@
 # Django Weather App
 
 ## Showcase
-![Screenshot 1](Demo\Screenshot-1.png)
-![Screenshot 2](Demo\Screenshot-1.png)
+![Screenshot 1](Screenshot-1.png)
+![Screenshot 2](Screenshot-2.png)
 
 
 
@@ -11,7 +11,6 @@ https://github.com/Ayanleaideed/Django-Weather-App/assets/116397906/29e661ba-d39
 ![Screenshot-2](https://github.com/Ayanleaideed/Django-Weather-App/assets/116397906/3970a40f-2b5b-40d8-82f1-ced096e36d64)
 ![Screenshot-1](https://github.com/Ayanleaideed/Django-Weather-App/assets/116397906/fb628050-f40e-44e1-ad83-50df3cbc169f)
 
-https://github.com/Ayanleaideed/Django-Weather-App/assets/116397906/4efeb672-a53b-4b2e-8a1f-6e15d1e30d0e
 
 
 
