@@ -44,10 +44,6 @@ To run this project locally, follow these steps:
 3. View the current temperature, weather condition, humidity, wind speed, and time of last update.
 4. Enjoy staying informed about the weather in your chosen locations.
 
-## Showcase
-
-![Weather App](screenshots/screenshot1.png)
-![Weather App](screenshots/screenshot2.png)
 
 ## Contributions
 
