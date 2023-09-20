@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #002e9d;
+  font-family: cursive;
+  font-size: large;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  background-color: #5fa2fa;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.weather-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.input {
+  background-color: whitesmoke;
+  color: black;
+  font-family: cursive;
+  font-weight: bolder;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 40px;
+  width: 100%;
+}
+
+#btn-submit, #btn-preview{
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 13px;
+  width: 80px;
+  height: 4rem;
+  font-size: large;
+  font-family: cursive;
+  cursor: pointer;
+  /* justify-content: space-around 10px; */
+  margin-bottom: 20px;
+}
+
+#btn-submit:hover {
+  background-color: white;
+  color: black;
+  opacity: 0.8;
+  transition: ease-in-out 0.3s;
+}
+
+#btn-submit:active {
+  background-color: orange;
+  color: blue;
+  opacity: 0.8;
+  transition: ease-in-out 0.3s;
+}
+
+#btn-preview:hover {
+  background-color: white;
+  color: black;
+  opacity: 0.8;
+  transition: ease-in-out 0.3s;
+}
+#btn-preview:active {
+  background-color: orange;
+  color: blue;
+  opacity: 0.8;
+  transition: ease-in-out 0.3s;
+}
+
+h3{
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+
+.value{
+ color: navy;
+ font-weight: bold;
+}
+
+.clear{
+  margin-top: 15px;
+}
+
+/* .change-color{
+  background-color: red;
+} */

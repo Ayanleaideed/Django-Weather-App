@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Web Application</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <title>Weather Web Application</title>
+</head>
+
+<body>
+
+  <div class="weather-container">
+    <h1 style="color: black; font-weight:bolder; font-size: xx-large;">Weather</h1>
+    <form method="POST" action="{% url 'home' %}">
+      {% csrf_token %}
+      <div class="weather-data">
+        <input id="cityInput" name="cityInput" class="input" type="text" placeholder="Search City"
+          oninput="toggleSubmit()">
+        {% if weather_data %}
+
+        <h3>{{weather_data.city}}</h3>
+        {% for key, value in weather_data.items %}
+        <strong>{{ key|title }}: <span class="value">{{ value }}</span></strong><br>
+
+        {% endfor %}
+        <!-- <button type="button" id="btn-submit" class="clear" onclick="clearData()">Clear</button> -->
+        {% endif %}
+        <button type="submit" id="btn-submit" disabled>Submit</button>
+      </div>
+    </form>
+  </div>
+  <script src="{% static 'css/index.js' %}"></script>
+</body>
+
+</html>
