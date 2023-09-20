@@ -2,6 +2,9 @@
 
 ## Showcase
 https://github.com/Ayanleaideed/Django-Weather-App/assets/116397906/29e661ba-d39d-473d-bc31-b7812c4261f3
+
+
+
 ![Screenshot 1](Screenshot-1.png)
 ![Screenshot 2](Screenshot-2.png)
 
